@@ -1,4 +1,4 @@
-import { configureStore } from '@reduxjs/toolkit';
+import { configureStore } from '@reduxjs/toolkit'; // Not installed
 import postsReducer from './postsSlice';
 
 const store = configureStore({
