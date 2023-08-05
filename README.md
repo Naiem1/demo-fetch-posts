@@ -1,5 +1,7 @@
 # Fetch post and show last 7 days createAt and UpdatedAt data
 
+## Approch
+
 1. **Step 1:  At first setup the Redux Slice**
     
     create and post slice and call createslice() function inside the createslice() we initialize state and reducer. We only fetch data so we need extendReducer() for data fulfill, reject or pending.
