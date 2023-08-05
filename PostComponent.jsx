@@ -1,7 +1,7 @@
 // This all are the demo code this not workable only for showing purpouse
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchPosts } from './postsSlice';
+import { fetchPosts } from './store/postsSlice';
 
 const PostsComponent = () => {
   const dispatch = useDispatch();
